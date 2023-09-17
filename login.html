@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url("./images/css\ background.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        h1{
+            text-align: center;
+        }
+        hr{
+            width: 1.5cm;
+            display: inline-block;
+            border: 1px solid black;
+        }
+        i{
+            width: 15px;
+            height: 15px;
+        }
+        #user-1,#user-2,#user-3,#user-4{
+            margin-left: 5px;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+            border: 1px solid black;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 15px;
+        }
+        #user-1,#user-2{
+            background-color: blue;
+            color: white;
+        }
+        #hr-1,#hr-2{
+            border-color: blue;
+        }
+        .one{
+            border: 1px solid black;
+            width: fit-content;
+            border-radius: 10px;
+            background: transparent;
+            backdrop-filter: blur(50px);
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        form{
+            margin: 20px;
+        }
+        div{
+            display: inline;
+        }
+        form input,textarea{
+            background: transparent;
+            outline: none;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding-left: 5px;
+        }
+        /* textarea{
+            background: transparent;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding-left: 5px;
+        } */
+    </style>
+</head>
+<body>
+    <section class="one">
+        <h1>Sign Up</h1>
+        <hr id="hr-1"><div id="user-1"><i class="fa fa-user"></i></div>
+        <hr id="hr-2"><div id="user-2"><i class="fa fa-envelope"></i></div>
+        <hr id="hr-3"><div id="user-3"><i class="fa fa-lock"></i></div>
+        <hr id="hr-4"><div id="user-4"><i class="fa fa-trophy"></i></div>
+        <hr id="hr-5"><br>
+        <form action="./password.html">
+            <label for="email">Email Id:</label><br>
+            <input type="email" name="email" placeholder="email"><br>
+            <br><center><input type="submit" value="Next" id="one"></center>
+        </form>
+    </section>    
+    <!--text decoration
+        text transform
+        line-height 
+        letter - spacing 
+        text - shadow
+        css icons 
+        over flow 
+        white space
+        border border style, border colour, border width
+        backgroud color
+        back ground image
+        border radius
+        bacgoround repeat
+        background size
+        back ground position
+        back ground attach ment
+        text - align
+        margin 
+        padding
+        box model
+        color
+        -->
+</body>
+</html>
